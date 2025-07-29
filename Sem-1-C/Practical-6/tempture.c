@@ -4,10 +4,11 @@ void main(){
 
     float InputTempt, OutputTempt;
     int option;
+    char unit;
 
     printf("Welcome to Tempt Convertor Choose option to convert :\n ");
-    printf("Enter Temp in C or F : ");
-    scanf("%f",&InputTempt);
+    printf("Enter Temp in with unit: ");
+    scanf("%f%c",&InputTempt,&unit);
     printf("\nNow Choose Convert method \n 1 for C->F \n 2 for F->c \n Choose : ");
     scanf("%d",&option);
     if (option == 1)
@@ -22,8 +23,4 @@ void main(){
     {
      printf("Invalid Input Type.");
     }
-    
-    
-    
-
 }
