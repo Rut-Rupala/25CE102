@@ -14,11 +14,15 @@ void main(){
     {
         OutputTempt = (InputTempt*9/5) + 32;
         printf("Result : %.2f F",OutputTempt);
-    }else
+    }else if(option == 2)
     {
         OutputTempt = (InputTempt-32)*5/9;
         printf("Result : %.2f C",OutputTempt);
+    }else
+    {
+     printf("Invalid Input Type.");
     }
+    
     
     
 
