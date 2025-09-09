@@ -5,6 +5,7 @@ void main(){
     int num;
     printf("Enter Number of seats you want to reaserved : ");
     scanf("%d",&num);
+    printf("-----------------------\n");
     for (int i = 0; i < num; i++)
     {
         int seatN,RowN;
@@ -20,10 +21,19 @@ void main(){
             }
         }
     }
+    printf("-----------------------\n");
     for (int i = 0; i < 5; i++)
-    {
+    {   
+        printf("Row %d : ",i+1);
         for(int j =0; j< 10; j++){
-            printf("%d",seat[i][j]);
+            if (seat[i][j] == 1)
+            {
+                /* code */
+                printf(" X ");
+            }
+            else{
+                printf(" O ");
+            }
         }
         printf("\n");
     }
