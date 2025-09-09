@@ -5,7 +5,7 @@ void main(){
     int num;
     printf("Enter Number of seats you want to reaserved : ");
     scanf("%d",&num);
-    printf("-----------------------\n");
+    printf("-----------------------------------------------------------------\n");
     for (int i = 0; i < num; i++)
     {
         int seatN,RowN;
@@ -21,7 +21,7 @@ void main(){
             }
         }
     }
-    printf("-----------------------\n");
+    printf("-----------------------------------------------------------------\n");
     for (int i = 0; i < 5; i++)
     {   
         printf("Row %d : ",i+1);
