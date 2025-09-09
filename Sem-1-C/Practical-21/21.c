@@ -35,4 +35,5 @@ int main(){
     printf("Even Number : %d\n",CE);
     printf("Odd Number : %d\n",CO);
     
+    return 0;
 }
