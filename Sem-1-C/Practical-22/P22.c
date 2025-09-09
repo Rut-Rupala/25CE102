@@ -28,7 +28,6 @@ void main(){
         for(int j =0; j< 10; j++){
             if (seat[i][j] == 1)
             {
-                /* code */
                 printf(" X ");
             }
             else{
