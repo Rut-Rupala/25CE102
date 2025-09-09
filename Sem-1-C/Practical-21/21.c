@@ -11,10 +11,6 @@ int main(){
     {
         printf("Enter Value of arr[%d] : ",i);
         scanf("%d",&arr[i]);
-    }
-    
-    for (int i = 0; i < 25; i++)
-    {
         if (arr[i]>=0)
         {
           CP++;  
@@ -31,8 +27,8 @@ int main(){
         {
           CO++;  
         }
-        
     }
+    
     printf("-----------------------------\n");
     printf("Positive Number : %d\n",CP);
     printf("Negtive Number : %d\n",CN);
