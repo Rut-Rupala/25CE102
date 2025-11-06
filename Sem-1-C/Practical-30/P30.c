@@ -15,7 +15,10 @@ void main(){
     printf("Enter Elements of arr : \n");
     for (int i = 0; i < size; i++)
     {
-        scanf("%d",p+i);
+        if(scanf("%d",p+i) != 1){
+            printf("Error");
+            return;
+        }
     }
     
     
