@@ -3,7 +3,7 @@
 int main() {
     int balance = 5000;   // starting balance
     int choice, amount;
-
+    printf("Rut Rupala, 25CE102!\n");
     printf("===== Welcome to National Bank of Bharat ATM =====\n");
     printf("Your starting balance: ₹%d\n\n", balance);
 

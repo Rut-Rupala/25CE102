@@ -6,7 +6,7 @@ int main(){
     int CN = 0;
     int CE = 0;
     int CO = 0;
-
+    printf("Rut Rupala, 25CE102!\n");
     for (int i = 0; i < 25; i++)
     {
         printf("Enter Value of arr[%d] : ",i);

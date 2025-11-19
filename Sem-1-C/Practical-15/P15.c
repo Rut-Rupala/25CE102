@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <windows.h>  // for Sleep()
+#include<unistd.h>
 
 int main() {
     int seconds, choice;
-
+    printf("Rut Rupala, 25CE102!\n");
     do {
         printf("Enter starting number of seconds: ");
         scanf("%d", &seconds);
@@ -14,7 +14,7 @@ int main() {
             while (seconds >= 0) {
                 // format output as MM:SS
                 printf("Time left: %02d:%02d\n", seconds / 60, seconds % 60);
-                Sleep(1000);   // 1000 ms = 1 second
+                sleep(1000);   // 1000 ms = 1 second
                 seconds--;
             }
             printf("Countdown completed!\n");

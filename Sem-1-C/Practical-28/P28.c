@@ -9,7 +9,7 @@ struct Book
 
 
 int main(){
-
+    printf("Rut Rupala, 25CE102!\n");
     struct Book B1;
     printf("Enter Book Title : ");
     fgets(B1.title,50,stdin);

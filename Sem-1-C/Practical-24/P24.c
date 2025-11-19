@@ -2,6 +2,7 @@
 
 void main(){
     char str[] = "Hello Hi";
+    printf("Rut Rupala, 25CE102!\n");
     int len = 0;
     int len2 = 0;
     for (int i =0; str[i] != '\0'; i++) {
@@ -24,9 +25,11 @@ void main(){
     char str1[100],str2[100];
     int i;
     printf("Enter Str1 : ");
-    gets(str1);
+    scanf("%s",str1);
+    fflush(stdin);
     printf("Enter Str2 : ");
-    gets(str2);
+    scanf("%s",str2);
+    fflush(stdin);
     int result = 0; 
     for (i = 0; str1[i] != '\0' && str2[i] != '\0'; i++)
     {

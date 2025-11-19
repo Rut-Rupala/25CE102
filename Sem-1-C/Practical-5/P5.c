@@ -5,7 +5,7 @@ int main() {
     long long totalPopulation = 1441981744LL;  
     double percentWomen = 48.4, percentMen;
     double literacyRateMen = 80.95, literacyRateWomen = 62.84;
-    
+    printf("Rut Rupala, 25CE102!\n");
     // Derived values
     percentMen = 100.0 - percentWomen;
 

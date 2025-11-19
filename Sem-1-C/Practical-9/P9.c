@@ -5,7 +5,7 @@ int main() {
     int n, isMember;
     float amount, discountRate, discount, finalAmount, gst, totalPayable;
     char promoCode[20];
-
+    printf("Rut Rupala, 25CE102!\n");
     printf("Enter number of customers to process: ");
     scanf("%d", &n);
 

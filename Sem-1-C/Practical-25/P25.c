@@ -54,6 +54,7 @@ void displayBooks(char books[][50], int available[], int n) {
 
 // Main function
 int main() {
+    printf("Rut Rupala, 25CE102!\n");
     char books[5][50] = {"C Programming", "Data Structures", "Algorithms", "DBMS", "AI Basics"};
     int available[5] = {1, 1, 1, 1, 1};  // all available
     int n = 5;

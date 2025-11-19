@@ -5,7 +5,7 @@ void main(){
     int attendedId[9];
     int Sum = 0;
     int size;
-    
+    printf("Rut Rupala, 25CE102!\n");
     printf("Enter Size : ");
     scanf("%d",&size);
     

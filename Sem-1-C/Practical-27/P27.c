@@ -15,6 +15,7 @@ int saving(int n,int b){
 }
 
 void main(){
+    printf("Rut Rupala, 25CE102!\n");
     int n;
     int b;
     printf("Enter Month : ");

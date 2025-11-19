@@ -3,7 +3,7 @@
 int main() {
     float marks;
     char grade;
-
+    printf("Rut Rupala, 25CE102!\n");
     printf("Enter marks (0–100): ");
     if (scanf("%f", &marks) != 1) {
         printf("Invalid input! Please enter a number.\n");

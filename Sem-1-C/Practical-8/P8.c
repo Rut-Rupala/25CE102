@@ -5,6 +5,7 @@ int main() {
     int age;
 
     do {
+        printf("Rut Rupala, 25CE102!\n");
         printf("\n===== Spark Savings Bank Eligibility Checker =====\n");
         printf("1. Check Eligibility\n");
         printf("2. Exit\n");

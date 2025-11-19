@@ -37,6 +37,7 @@ int TriaArea(int a,int b,int c){
     return 0;
 }
 void main(){
+    printf("Rut Rupala, 25CE102!\n");
     double Area = TriaArea(3,4,5);
     printf("Area : %.2f",Area);
 }

@@ -3,6 +3,7 @@
 void main(){
     int seat[5][10] = {0};
     int num;
+    printf("Rut Rupala, 25CE102!\n");
     printf("Enter Number of seats you want to reaserved : ");
     scanf("%d",&num);
     printf("-----------------------------------------------------------------\n");

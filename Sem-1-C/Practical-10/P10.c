@@ -4,7 +4,7 @@ int main() {
     int choice, qty;
     float total = 0;
     int burger = 0, pizza = 0, pasta = 0, sandwich = 0, fries = 0;
-
+    printf("Rut Rupala, 25CE102!\n");
     printf("===== Welcome to Foodies Restaurant =====\n");
     printf("Menu:\n");
     printf("1. Burger       - ₹150\n");

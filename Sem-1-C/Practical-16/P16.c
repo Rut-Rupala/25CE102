@@ -3,7 +3,7 @@
 int main() {
     int matchsticks = 21;
     int user_pick, comp_pick;
-
+    printf("Rut Rupala, 25CE102!\n");
     printf("Welcome to the 21 Matchstick Game!\n");
     printf("Rules: You can pick 1 to 4 matchsticks on your turn.\n");
     printf("Whoever is forced to pick the LAST matchstick loses.\n\n");

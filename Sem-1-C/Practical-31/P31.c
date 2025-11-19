@@ -5,6 +5,7 @@
 int main() {
     char *summary;
     int initial_size, new_size;
+    printf("Rut Rupala, 25CE102!\n");
 
     printf("Enter initial summary size: ");
     scanf("%d", &initial_size);

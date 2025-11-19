@@ -3,6 +3,7 @@
 int max(int a, int b);
 int min(int a, int b);
 void main(){
+    printf("Rut Rupala, 25CE102!\n");
     int fruitPrice[] = {30, 20, 25, 40, 25, 50, 35};
     int maxProfit = 0;
     int maxSell = 0;

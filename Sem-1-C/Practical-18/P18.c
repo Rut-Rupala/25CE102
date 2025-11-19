@@ -2,7 +2,7 @@
 
 int main() {
     int num, limit, i;
-
+    printf("Rut Rupala, 25CE102!\n");
     // take input
     printf("Enter a number to generate its multiplication table: ");
     scanf("%d", &num);

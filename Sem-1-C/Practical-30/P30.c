@@ -2,6 +2,7 @@
 
 void main(){
     int size;
+    printf("Rut Rupala, 25CE102!\n");
     printf("Enter Size of arr : ");
     scanf("%d",&size);
     if (size <= 0)

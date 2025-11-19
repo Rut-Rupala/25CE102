@@ -4,6 +4,7 @@ int main() {
     int i, j, k, n;
 
     // (i) Alternating 1 0 triangle
+    printf("Rut Rupala, 25CE102!\n");
     n = 5;  // rows
     printf("(i) Alternating 1 0 Triangle\n");
     for (i = 1; i <= n; i++) {

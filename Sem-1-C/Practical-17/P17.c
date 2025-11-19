@@ -3,6 +3,7 @@
 int main() {
     int minute = 0;
     double distance = 0.0;
+    printf("Rut Rupala, 25CE102!\n");
 
     while (1) {  // infinite loop
         minute++;
